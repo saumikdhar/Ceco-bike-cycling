@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!--
+https://www.routeloops.com/?Base=51.48158100000001:-3.1790899999999738&numWpts=3&wpt[0]=51.4858013:-3.1737193999999818&wpt[1]=51.4823539:-3.1651861999999937&wpt[2]=51.4787689:-3.1691975999999613&tM=1&len=4.104778095919828&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.4815485" lon="-3.1791507000000365">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.48161229999999" lon="-3.1792387000000417">
+   <name> p1</name>
+   <desc><![CDATA[Head north-west on St John St towards Duke St/A4161]]></desc>
+   </rtept>
+   <rtept lat="51.4837523" lon="-3.1803314">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Duke St/A4161Continue to follow A4161]]></desc>
+   </rtept>
+   <rtept lat="51.4842417" lon="-3.1791944000000285">
+   <name> p3</name>
+   <desc><![CDATA[Turn right onto Boulevard De Nantes/A4161]]></desc>
+   </rtept>
+   <rtept lat="51.4844507" lon="-3.1790469999999686">
+   <name> p4</name>
+   <desc><![CDATA[Turn left towards Gorsedd Gardens Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4845372" lon="-3.178729100000055">
+   <name> p5</name>
+   <desc><![CDATA[Slight right at King Edward VII Ave]]></desc>
+   </rtept>
+   <rtept lat="51.4856516" lon="-3.1763971999999967">
+   <name> p6</name>
+   <desc><![CDATA[Continue onto Gorsedd Gardens Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4852387" lon="-3.1760960000000296">
+   <name> p7</name>
+   <desc><![CDATA[Turn right onto Park Pl]]></desc>
+   </rtept>
+   <rtept lat="51.4858013" lon="-3.1737193999999818">
+   <name> p8</name>
+   <desc><![CDATA[Turn left onto St Andrew's Pl]]></desc>
+   </rtept>
+   <rtept lat="51.4848088" lon="-3.172988900000064">
+   <name> p9</name>
+   <desc><![CDATA[Turn right onto St Andrew's Ln]]></desc>
+   </rtept>
+   <rtept lat="51.4838016" lon="-3.1681505000000243">
+   <name> p10</name>
+   <desc><![CDATA[Turn left onto Dumfries Pl/A4161Continue to follow A4161]]></desc>
+   </rtept>
+   <rtept lat="51.4824581" lon="-3.167127800000003">
+   <name> p11</name>
+   <desc><![CDATA[Turn right onto Fitzalan Pl/A4160]]></desc>
+   </rtept>
+   <rtept lat="51.4823539" lon="-3.1651861999999937">
+   <name> p12</name>
+   <desc><![CDATA[Turn left onto Fitzalan Rd]]></desc>
+   </rtept>
+   <rtept lat="51.48093859999999" lon="-3.1661788000000115">
+   <name> p13</name>
+   <desc><![CDATA[Turn right onto Moira Terrace]]></desc>
+   </rtept>
+   <rtept lat="51.4770578" lon="-3.17408219999993">
+   <name> p14</name>
+   <desc><![CDATA[Continue onto Adam St/A4160Continue to follow A4160]]></desc>
+   </rtept>
+   <rtept lat="51.47824079999999" lon="-3.1756147999999484">
+   <name> p15</name>
+   <desc><![CDATA[Turn right onto Hayes Bridge Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4794681" lon="-3.1765192000000297">
+   <name> p16</name>
+   <desc><![CDATA[Turn right onto The Hayes]]></desc>
+   </rtept>
+   <rtept lat="51.4795807" lon="-3.1763690000000224">
+   <name> p17</name>
+   <desc><![CDATA[Turn right to stay on The Hayes]]></desc>
+   </rtept>
+   <rtept lat="51.48099310000001" lon="-3.178450800000064">
+   <name> p18</name>
+   <desc><![CDATA[Turn left onto Working St]]></desc>
+   </rtept>
+   <rtept lat="51.4815485" lon="-3.1791507000000365">
+   <name> p19</name>
+   <desc><![CDATA[Turn right onto St John StDestination will be on the right]]></desc>
+   </rtept>
+</rte>
+</gpx>

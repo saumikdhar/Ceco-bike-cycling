@@ -1,0 +1,45 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "195f24cb008b2514afa174edb9d389ad",
+    "entities": [
+      {
+        "tableName": "Journey",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`jid` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `distance_miles` REAL, `duration` REAL)",
+        "fields": [
+          {
+            "fieldPath": "jid",
+            "columnName": "jid",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "distance",
+            "columnName": "distance_miles",
+            "affinity": "REAL",
+            "notNull": false
+          },
+          {
+            "fieldPath": "duration",
+            "columnName": "duration",
+            "affinity": "REAL",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "jid"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"195f24cb008b2514afa174edb9d389ad\")"
+    ]
+  }
+}

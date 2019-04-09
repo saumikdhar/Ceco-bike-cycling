@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map"
+    android:keepScreenOn="true">
+
+    <FrameLayout
+        android:id="@+id/map"
+        android:name="com.nsa.cecobike.Map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="55dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/finish_journey_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#015b66"
+            android:padding="10dp"
+            android:text="@string/finish_my_journey"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:visibility="gone"
+            android:onClick="stopTimer"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/start_journey_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#015b66"
+            android:padding="10dp"
+            android:text="@string/start_the_journey"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:onClick="startTimer"
+            />
+
+
+        <Chronometer
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            />
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

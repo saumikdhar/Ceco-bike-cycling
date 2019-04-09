@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!--
+https://www.routeloops.com/?Base=51.48158100000001:-3.1790899999999738&numWpts=3&wpt[0]=51.50549849999999:-3.162094400000001&wpt[1]=51.49917000000001:-3.140666900000042&wpt[2]=51.480527:-3.1626724000000195&tM=1&len=6&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.4815485" lon="-3.1791507000000365">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.48161229999999" lon="-3.1792387000000417">
+   <name> p1</name>
+   <desc><![CDATA[Head north-west on St John St towards Duke St/A4161]]></desc>
+   </rtept>
+   <rtept lat="51.4837523" lon="-3.1803314">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Duke St/A4161Continue to follow A4161]]></desc>
+   </rtept>
+   <rtept lat="51.4842417" lon="-3.1791944000000285">
+   <name> p3</name>
+   <desc><![CDATA[Turn right onto Boulevard De Nantes/A4161]]></desc>
+   </rtept>
+   <rtept lat="51.4844507" lon="-3.1790469999999686">
+   <name> p4</name>
+   <desc><![CDATA[Turn left towards Gorsedd Gardens Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4845372" lon="-3.178729100000055">
+   <name> p5</name>
+   <desc><![CDATA[Slight right at King Edward VII Ave]]></desc>
+   </rtept>
+   <rtept lat="51.4856516" lon="-3.1763971999999967">
+   <name> p6</name>
+   <desc><![CDATA[Continue onto Gorsedd Gardens Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4852387" lon="-3.1760960000000296">
+   <name> p7</name>
+   <desc><![CDATA[Turn right onto Park Pl]]></desc>
+   </rtept>
+   <rtept lat="51.4861289" lon="-3.173019199999999">
+   <name> p8</name>
+   <desc><![CDATA[Turn left onto St Andrew's Pl]]></desc>
+   </rtept>
+   <rtept lat="51.4887199" lon="-3.1739112000000205">
+   <name> p9</name>
+   <desc><![CDATA[Slight left onto Salisbury Rd]]></desc>
+   </rtept>
+   <rtept lat="51.48899919999999" lon="-3.1716539999999895">
+   <name> p10</name>
+   <desc><![CDATA[Turn right onto Lowther Rd]]></desc>
+   </rtept>
+   <rtept lat="51.492532" lon="-3.1716747000000396">
+   <name> p11</name>
+   <desc><![CDATA[Turn left onto Richmond Rd]]></desc>
+   </rtept>
+   <rtept lat="51.49401049999999" lon="-3.166032800000039">
+   <name> p12</name>
+   <desc><![CDATA[Continue straight onto Albany Rd/A469]]></desc>
+   </rtept>
+   <rtept lat="51.4962963" lon="-3.164739700000041">
+   <name> p13</name>
+   <desc><![CDATA[Turn left onto Wellfield Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4991352" lon="-3.161967300000015">
+   <name> p14</name>
+   <desc><![CDATA[Continue onto Pen-Y-Lan Rd]]></desc>
+   </rtept>
+   <rtept lat="51.5065976" lon="-3.1637881000000334">
+   <name> p15</name>
+   <desc><![CDATA[Turn left onto Ty-Gwyn Rd]]></desc>
+   </rtept>
+   <rtept lat="51.5018776" lon="-3.159401099999968">
+   <name> p16</name>
+   <desc><![CDATA[Turn right onto Cyncoed Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4986694" lon="-3.15739659999997">
+   <name> p17</name>
+   <desc><![CDATA[Turn left onto Waterloo Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4967993" lon="-3.14796530000001">
+   <name> p18</name>
+   <desc><![CDATA[Turn left onto Colchester Ave]]></desc>
+   </rtept>
+   <rtept lat="51.50046649999999" lon="-3.1445333000000346">
+   <name> p19</name>
+   <desc><![CDATA[Turn left onto Ipswich Rd]]></desc>
+   </rtept>
+   <rtept lat="51.49917000000001" lon="-3.140666900000042">
+   <name> p20</name>
+   <desc><![CDATA[Turn right to stay on Ipswich Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4865424" lon="-3.1607774999999947">
+   <name> p21</name>
+   <desc><![CDATA[Turn right onto A4161]]></desc>
+   </rtept>
+   <rtept lat="51.4853767" lon="-3.1596984000000248">
+   <name> p22</name>
+   <desc><![CDATA[Turn left onto Piercefield Pl]]></desc>
+   </rtept>
+   <rtept lat="51.4834045" lon="-3.1577707999999802">
+   <name> p23</name>
+   <desc><![CDATA[Continue onto Metal St]]></desc>
+   </rtept>
+   <rtept lat="51.481705" lon="-3.1617347999999765">
+   <name> p24</name>
+   <desc><![CDATA[Turn right onto Constellation St]]></desc>
+   </rtept>
+   <rtept lat="51.480527" lon="-3.1626724000000195">
+   <name> p25</name>
+   <desc><![CDATA[Turn left onto Adamsdown Square]]></desc>
+   </rtept>
+   <rtept lat="51.48093859999999" lon="-3.1661788000000115">
+   <name> p26</name>
+   <desc><![CDATA[Turn right onto Windsor Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4770578" lon="-3.17408219999993">
+   <name> p27</name>
+   <desc><![CDATA[Turn left onto Adam St/A4160Continue to follow A4160]]></desc>
+   </rtept>
+   <rtept lat="51.47824079999999" lon="-3.1756147999999484">
+   <name> p28</name>
+   <desc><![CDATA[Turn right onto Hayes Bridge Rd]]></desc>
+   </rtept>
+   <rtept lat="51.4794681" lon="-3.1765192000000297">
+   <name> p29</name>
+   <desc><![CDATA[Turn right onto The Hayes]]></desc>
+   </rtept>
+   <rtept lat="51.4795807" lon="-3.1763690000000224">
+   <name> p30</name>
+   <desc><![CDATA[Turn right to stay on The Hayes]]></desc>
+   </rtept>
+   <rtept lat="51.48099310000001" lon="-3.178450800000064">
+   <name> p31</name>
+   <desc><![CDATA[Turn left onto Working St]]></desc>
+   </rtept>
+   <rtept lat="51.4815485" lon="-3.1791507000000365">
+   <name> p32</name>
+   <desc><![CDATA[Turn right onto St John StDestination will be on the right]]></desc>
+   </rtept>
+</rte>
+</gpx>

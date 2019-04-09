@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    tools:context=".JourneySummary"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/cardiff_council_banner"
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="cardiff council banner"
+        android:src="@drawable/cardiff_city_council_banner" />
+
+        <TextView
+            android:id="@+id/about_us_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardiff_council_banner"
+            android:layout_marginTop="16dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#015b66"
+            android:gravity="center_horizontal"
+            android:text="@string/about_us"/>
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:text="@string/info_about_us"
+            android:layout_below="@id/about_us_text"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="#015b66"/>
+
+        <TextView
+            android:id="@+id/app_info_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:text="@string/app_info"
+            android:layout_below="@id/info_text"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="#015b66"/>
+
+        <TextView
+            android:id="@+id/more_info_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:text="@string/more_info"
+            android:layout_below="@id/app_info_text"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="#015b66"
+            />
+
+            <TextView
+                android:id="@+id/contact_info_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:text="@string/contact_info"
+                android:layout_below="@id/more_info_text"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:textColor="#015b66"
+                android:paddingBottom="40dp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="cardiff council footer"
+        android:src="@drawable/footer_blue" />
+
+</RelativeLayout>

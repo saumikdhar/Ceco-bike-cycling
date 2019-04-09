@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetGoal"
+    android:layout_marginTop="75dp"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+                <SeekBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/seek_bar"
+                    android:max="300"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/goal_track"
+                    android:thumb="@drawable/goal_thumb"
+                    android:indeterminate="false" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Set your goal in Miles:"
+                android:textSize="30sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:shadowColor="@color/colorTertiaryDark"
+                android:id="@+id/goal_miles"
+                android:textSize="25sp"/>
+        </TableRow>
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/set_goal"
+            android:layout_marginBottom="5dp"
+            android:text="Set Goal"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/background_light"
+            android:id="@+id/remove_goal"
+            android:layout_marginBottom="5dp"
+            android:text="Remove Goal"
+            />
+    </TableLayout>
+</android.support.v7.widget.LinearLayoutCompat>

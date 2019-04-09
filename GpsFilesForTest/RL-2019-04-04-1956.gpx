@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<!--
+https://www.routeloops.com/?Base=51.508805:-3.580252200000018&numWpts=3&wpt[0]=51.51612069999999:-3.623548700000015&wpt[1]=51.527713:-3.622283100000004&wpt[2]=51.518819:-3.576141600000028&tM=1&len=7&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.508805" lon="-3.580252200000018">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.5085552" lon="-3.580287999999996">
+   <name> p1</name>
+   <desc><![CDATA[Head south on Brewery Ln towards Boulevard De Villenave D'Ornon/A4061]]></desc>
+   </rtept>
+   <rtept lat="51.50846319999999" lon="-3.5811396000000286">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Boulevard De Villenave D'Ornon/A4061Walk your bicycle]]></desc>
+   </rtept>
+   <rtept lat="51.5066222" lon="-3.580866199999946">
+   <name> p3</name>
+   <desc><![CDATA[At the roundabout, take the 1st exit onto Tondu Rd/A4063]]></desc>
+   </rtept>
+   <rtept lat="51.5037872" lon="-3.582426299999952">
+   <name> p4</name>
+   <desc><![CDATA[Turn left onto Angel St]]></desc>
+   </rtept>
+   <rtept lat="51.5037284" lon="-3.5824583999999504">
+   <name> p5</name>
+   <desc><![CDATA[Turn left onto Sunnyside Rd]]></desc>
+   </rtept>
+   <rtept lat="51.5006518" lon="-3.6002932999999757">
+   <name> p6</name>
+   <desc><![CDATA[Turn right]]></desc>
+   </rtept>
+   <rtept lat="51.5004786" lon="-3.601052500000037">
+   <name> p7</name>
+   <desc><![CDATA[Slight left at Gentle Way]]></desc>
+   </rtept>
+   <rtept lat="51.50157410000001" lon="-3.602235599999972">
+   <name> p8</name>
+   <desc><![CDATA[Turn right]]></desc>
+   </rtept>
+   <rtept lat="51.5016538" lon="-3.6051674000000276">
+   <name> p9</name>
+   <desc><![CDATA[Turn left]]></desc>
+   </rtept>
+   <rtept lat="51.50450739999999" lon="-3.613960700000007">
+   <name> p10</name>
+   <desc><![CDATA[Turn right]]></desc>
+   </rtept>
+   <rtept lat="51.5153821" lon="-3.622676200000001">
+   <name> p11</name>
+   <desc><![CDATA[Turn right]]></desc>
+   </rtept>
+   <rtept lat="51.51556950000001" lon="-3.6230760999999347">
+   <name> p12</name>
+   <desc><![CDATA[Turn left onto Llangewydd Road]]></desc>
+   </rtept>
+   <rtept lat="51.5186539" lon="-3.627644499999974">
+   <name> p13</name>
+   <desc><![CDATA[Turn right to stay on Llangewydd Road]]></desc>
+   </rtept>
+   <rtept lat="51.5276667" lon="-3.62245089999999">
+   <name> p14</name>
+   <desc><![CDATA[Turn right]]></desc>
+   </rtept>
+   <rtept lat="51.53279389999999" lon="-3.6210925000000316">
+   <name> p15</name>
+   <desc><![CDATA[Slight right]]></desc>
+   </rtept>
+   <rtept lat="51.5328671" lon="-3.62068249999993">
+   <name> p16</name>
+   <desc><![CDATA[Turn right onto B4281]]></desc>
+   </rtept>
+   <rtept lat="51.5335161" lon="-3.6144804000000477">
+   <name> p17</name>
+   <desc><![CDATA[Slight right at Tycribwr Hill]]></desc>
+   </rtept>
+   <rtept lat="51.53380610000001" lon="-3.611044799999945">
+   <name> p18</name>
+   <desc><![CDATA[Turn left]]></desc>
+   </rtept>
+   <rtept lat="51.5375892" lon="-3.60064710000006">
+   <name> p19</name>
+   <desc><![CDATA[Slight left]]></desc>
+   </rtept>
+   <rtept lat="51.5389608" lon="-3.59640330000002">
+   <name> p20</name>
+   <desc><![CDATA[Turn left onto Alma Terrace]]></desc>
+   </rtept>
+   <rtept lat="51.5378024" lon="-3.5925861000000623">
+   <name> p21</name>
+   <desc><![CDATA[Turn right onto Park Rd/B4281Continue to follow B4281]]></desc>
+   </rtept>
+   <rtept lat="51.5376328" lon="-3.5908125999999356">
+   <name> p22</name>
+   <desc><![CDATA[At the roundabout, take the 2nd exit onto A4063]]></desc>
+   </rtept>
+   <rtept lat="51.5375618" lon="-3.591053699999975">
+   <name> p23</name>
+   <desc><![CDATA[Turn right onto 88]]></desc>
+   </rtept>
+   <rtept lat="51.5334481" lon="-3.588540500000022">
+   <name> p24</name>
+   <desc><![CDATA[Slight left to stay on 88]]></desc>
+   </rtept>
+   <rtept lat="51.5308699" lon="-3.584306100000049">
+   <name> p25</name>
+   <desc><![CDATA[Sharp left to stay on 88]]></desc>
+   </rtept>
+   <rtept lat="51.5229948" lon="-3.582721499999934">
+   <name> p26</name>
+   <desc><![CDATA[Turn right to stay on 88Partial restricted-usage road]]></desc>
+   </rtept>
+   <rtept lat="51.5202466" lon="-3.5830982999999605">
+   <name> p27</name>
+   <desc><![CDATA[Turn left onto St Andrews Rd]]></desc>
+   </rtept>
+   <rtept lat="51.5200814" lon="-3.582911700000068">
+   <name> p28</name>
+   <desc><![CDATA[Turn left onto St Francis Rd]]></desc>
+   </rtept>
+   <rtept lat="51.5203487" lon="-3.579857299999958">
+   <name> p29</name>
+   <desc><![CDATA[Turn left onto Wild Mill Ln]]></desc>
+   </rtept>
+   <rtept lat="51.5212288" lon="-3.5770493999999644">
+   <name> p30</name>
+   <desc><![CDATA[Continue onto Litchard Terrace]]></desc>
+   </rtept>
+   <rtept lat="51.5198031" lon="-3.5771718999999393">
+   <name> p31</name>
+   <desc><![CDATA[Turn right onto Tanyrallt Ave]]></desc>
+   </rtept>
+   <rtept lat="51.5179751" lon="-3.57366090000005">
+   <name> p32</name>
+   <desc><![CDATA[Turn left onto Pendre]]></desc>
+   </rtept>
+   <rtept lat="51.5095782" lon="-3.575996400000008">
+   <name> p33</name>
+   <desc><![CDATA[Turn right onto Coity Rd]]></desc>
+   </rtept>
+   <rtept lat="51.509449" lon="-3.575465300000019">
+   <name> p34</name>
+   <desc><![CDATA[Keep right to continue towards Boulevard De Villenave D'Ornon/A4061]]></desc>
+   </rtept>
+   <rtept lat="51.5082957" lon="-3.5809699999999793">
+   <name> p35</name>
+   <desc><![CDATA[Turn right onto Boulevard De Villenave D'Ornon/A4061]]></desc>
+   </rtept>
+   <rtept lat="51.5085552" lon="-3.580287999999996">
+   <name> p36</name>
+   <desc><![CDATA[At the roundabout, take the 3rd exit and stay on Boulevard De Villenave D'Ornon/A4061]]></desc>
+   </rtept>
+   <rtept lat="51.508805" lon="-3.580252200000018">
+   <name> p37</name>
+   <desc><![CDATA[Turn left onto Brewery Ln]]></desc>
+   </rtept>
+</rte>
+</gpx>
