@@ -4,6 +4,8 @@ import android.Manifest;
 import android.app.PendingIntent;
 import android.arch.persistence.room.Room;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
@@ -23,6 +25,7 @@ import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AlertDialog;
 import android.util.AttributeSet;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.AppCompatButton;
@@ -132,7 +135,8 @@ public class Map extends Fragment implements OnMapReadyCallback {
                 boolean getCurrentLocationFailed = false;
                 locationManager = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
                 requestStoragePermission();
-                if (permissionIsGranted && locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+                final LocationManager manager = (LocationManager) getActivity().getSystemService( Context.LOCATION_SERVICE );
+                if (permissionIsGranted && manager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
                     try {
                         getCurrentLocation();
                         getCurrentLocationFailed = false;
@@ -148,6 +152,25 @@ public class Map extends Fragment implements OnMapReadyCallback {
                     }
                 } else if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
                     Toast.makeText(getContext(), "Couldn't get location, Please ensure you enable GPS and aeroplane mode is off", Toast.LENGTH_SHORT).show();
+                    AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(getContext());
+                    alertDialogBuilder.setMessage("GPS is disabled in your device. Would you like to enable it?")
+                            .setCancelable(false)
+                            .setPositiveButton("Goto Settings Page To Enable GPS",
+                                    new DialogInterface.OnClickListener(){
+                                        public void onClick(DialogInterface dialog, int id){
+                                            Intent callGPSSettingIntent = new Intent(
+                                                    android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+                                            startActivity(callGPSSettingIntent);
+                                        }
+                                    });
+                    alertDialogBuilder.setNegativeButton("Cancel",
+                            new DialogInterface.OnClickListener(){
+                                public void onClick(DialogInterface dialog, int id){
+                                    dialog.cancel();
+                                }
+                            });
+                    AlertDialog alert = alertDialogBuilder.create();
+                    alert.show();
                 }
             }
         });
